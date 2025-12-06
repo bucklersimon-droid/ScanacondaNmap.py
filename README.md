@@ -109,4 +109,21 @@ ScanacondaNmap/
     ├── cli_colors.py        # **Colors:** Green (open), yellow (filtered)
     └── constants.py         # **Defaults:** Common ports list for empty input
 
+## 📜 Licensing & Attribution
+
+This project is released under the MIT License. You are free to use, modify, and distribute the code, provided that the original copyright notice and license terms are included.
+
+### Dependencies
+ScanacondaNmap is written using only Python’s standard library modules (`socket`, `json`, `logging`, etc.). No external third‑party libraries are required.
+“Project icon generated with Microsoft Copilot AI.” for Simon Buckler
+
+### Attribution
+If you build upon this project, please include a reference back to this repository:
+[ScanacondaNmap](https://github.com/bucklersimon-droid/ScanacondaNmap.py)
+
+### Notes
+- The `.exe` build was packaged for educational purposes (Cert III Information Technology, VU).
+- Any icons or branding included in this repo are original and not sourced from third‑party libraries.
+
 🐍═══════════════════════════════════════════════════════════════════════🐍
+

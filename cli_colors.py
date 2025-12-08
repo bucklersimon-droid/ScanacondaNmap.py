@@ -1,6 +1,7 @@
 # utils/cli_colors.py
 
 import os
+import time
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -12,7 +13,7 @@ def banner():
 
 def good_bye():
     print("\033[93m  🐍 Thank you for using ScanacondaNmap! Bye for now.\033[0m\n")
-
+    time.sleep(1.5) #pauses for 1.5 seconds before exiting
 def end_scan_border():
     print("\033[92m  🐍════════════════════SCAN═══════COMPLETE═══════════════"
           "═══════🐍\033[0m\n")
@@ -52,4 +53,5 @@ def print_summary(open_map, closed_map, filtered_map, start_time, path):
 
 def timestamp_now():
     import datetime
+
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")

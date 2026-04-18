@@ -1,7 +1,7 @@
 """
 File: scanaconda.py
 Author: Simon Buckler
-Purpose: Port scanning tool using Nmap in Python
+Purpose: Port scanning tool using socket in Python
 Development: Began Nov 30, 2025 – Ended [December 4, 2025]
 """
 
